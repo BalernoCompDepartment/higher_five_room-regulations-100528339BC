@@ -40,7 +40,7 @@ class Main {
     System.out.println(msg);
     double dimension = scan.nextDouble();
 
-    while(dimension < 2 || dimension > 20){
+    while(dimension < min || dimension > max){
      System.out.println("invalid value");
      System.out.println("" +msg);
      dimension = scan.nextDouble();
