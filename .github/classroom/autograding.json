@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "testing",
+      "setup": "javac *.java",
+      "run": "java Main",
+      "input": "20\r\n20\r\n10\r\n15",
+      "output": " 266 ",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
